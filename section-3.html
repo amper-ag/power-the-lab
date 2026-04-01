@@ -1,6 +1,7 @@
 <style type="text/css">
     .section-3{
         text-align: center;
+        background-color: #f1f2f2;
     }
     .section-3 h2{
         color: #54585a;
@@ -10,9 +11,13 @@
     .section-3 strong{
         color: #262262;
     }
+        .section-3-content img{
+        mix-blend-mode: multiply;
+    }
 
     .section-3-cta{
         padding-top: var(--space3);
+        padding-bottom: var(--space3);
     }
 
     .section-3-footer{
@@ -23,7 +28,6 @@
         height: 30vh;
         background-color: #e2e3e4;
         color: #54585a;
-        margin-top: var(--space4);
     }
     .section-3-mail{
         display: inline-flex !important; 
@@ -41,6 +45,13 @@
     .section-3-mail a{
         color: var(--lightblue);
         text-decoration: none;
+    }
+    
+    @media (orientation: portrait) {
+        .section-3-footer{
+            padding: 20px;
+            height: auto;
+        }
     }
 </style>
 
