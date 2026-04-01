@@ -11,23 +11,36 @@
         color: #262262;
     }
 
-    .section-3-content{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-    .section-3-content img{
-        width: 100px !important;
-        margin-bottom: var(--space2);
-    }
-
     .section-3-cta{
         padding-top: var(--space3);
     }
-    
+
     .section-3-footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 30vh;
         background-color: #e2e3e4;
+        color: #54585a;
+        margin-top: var(--space4);
+    }
+    .section-3-mail{
+        display: inline-flex !important; 
+        align-items: center;
+        gap: 10px;
+        background-color: white;
+        padding: 10px 15px;
+        width: fit-content !important; 
+    }
+
+    .section-3-mail img{
+        width: 30px !important;
+    }
+
+    .section-3-mail a{
+        color: var(--lightblue);
+        text-decoration: none;
     }
 </style>
 
@@ -36,19 +49,19 @@
 
     <div class="grid">
         <div class="section-3-content">
-            <img src="https://www.thermofisher.com/content/dam/LifeTech/latin-america/2026/banners/power-the-lab/Icone1.png">
+            <img src="https://www.thermofisher.com/content/dam/LifeTech/latin-america/2026/banners/power-the-lab/1.png">
         </div>
 
         <div class="section-3-content">
-            <img src="https://www.thermofisher.com/content/dam/LifeTech/latin-america/2026/banners/power-the-lab/Icone1.png">
+            <img src="https://www.thermofisher.com/content/dam/LifeTech/latin-america/2026/banners/power-the-lab/2.png">
         </div>
 
         <div class="section-3-content">
-            <img src="https://www.thermofisher.com/content/dam/LifeTech/latin-america/2026/banners/power-the-lab/Icone1.png">
+            <img src="https://www.thermofisher.com/content/dam/LifeTech/latin-america/2026/banners/power-the-lab/3-ok.png">
         </div>
 
         <div class="section-3-content">
-            <img src="https://www.thermofisher.com/content/dam/LifeTech/latin-america/2026/banners/power-the-lab/Icone1.png">
+            <img src="https://www.thermofisher.com/content/dam/LifeTech/latin-america/2026/banners/power-the-lab/4.png">
         </div>
     </div>
 
@@ -66,8 +79,11 @@
             </p>
         </div>
 
-        <div>
-            <a>arorders@thermofisher.com</a>
+        <div class="align-vertical">
+            <div class="section-3-mail">
+                <img src="https://www.thermofisher.com/content/dam/LifeTech/latin-america/2026/banners/power-the-lab/Envelope.png">
+                <a href="#">arorders@thermofisher.com</a>
+            </div>
         </div>
     </div>
 </section>
